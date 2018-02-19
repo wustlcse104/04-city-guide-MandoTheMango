@@ -1,0 +1,43 @@
+#Welcome {
+  text-align: center;
+}
+#Welcome > img{
+  height: 600px;
+  width: 1300px;
+
+}
+#Food > h3{
+  font-weight: normal;
+  text-decoration: underline;
+  padding: 50px;
+}
+#Food > p{
+  margin-right: 650px;
+}
+#Food > img {
+  height: 400px;
+  width: 600px;
+  float: right;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+body{
+  background-color: rgba(32, 198, 217, 0.88);
+}
+
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+a:link{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
