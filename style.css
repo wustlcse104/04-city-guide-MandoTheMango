@@ -1,31 +1,98 @@
-#Welcome {
-  text-align: center;
-}
-#Welcome > img{
-  height: 600px;
-  width: 1300px;
+
+.menu-container{
+  color: #fff;
+  background-color: #5995DA;
+  display: flex;
+  justify-content: center;
+  padding: 20px ;
 
 }
-#Food > h3{
-  font-weight: normal;
-  text-decoration: underline;
-  padding: 50px;
-}
-#Food > p{
-  margin-right: 650px;
-}
-#Food > img {
-  height: 400px;
-  width: 600px;
-  float: right;
-}
-.flex-container{
+.nav{
+  border: 1px solid #fff;
+  width: 900px;
+  height: 100px;
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+
 }
+
+
+
+.sky_line-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+ .picture{
+
+   width: 10000px;
+   height: 300px;
+   display: flex;
+
+
+ }
+
+ .picture > img{
+   height: 319px;
+   width: 1000px;
+   border: solid red;
+   display: block;
+   margin: auto;
+
+}
+
+
+
+.Mission-container{
+height: 165px;
+background-color: #5995DA;
+align-items: center;
+}
+
+.mission-p {
+  padding-left: 15px;
+  font-size: 17px;
+
+}
+
+#mission{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.classic_food_container{
+  display: flex;
+  border: solid red;
+  justify-content: flex-start;
+  height: 500px;
+  width: 600px;
+
+}
+
+
+.pizza_pics_container{
+  display: flex;
+  border: solid blue;
+  height: 500px;
+  width: 600px;
+
+
+}
+
+.pizza_pics_container > img{
+  height: 500px;
+  width: 500px;
+}
+
 
 body{
-  background-color: rgba(32, 198, 217, 0.88);
+  background-color: white;
 }
 
 a:visited{
