@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   padding: 20px ;
+  width: 100%;
 
 }
 .nav{
@@ -29,7 +30,6 @@
 
 
  .picture{
-
    width: 10000px;
    height: 300px;
    display: flex;
@@ -38,7 +38,7 @@
  }
 
  .picture > img{
-   height: 319px;
+   height: 295px;
    width: 1000px;
    border: solid red;
    display: block;
@@ -49,46 +49,138 @@
 
 
 .Mission-container{
-height: 165px;
+display: flex;
+height: 180px;
 background-color: #5995DA;
 align-items: center;
 }
 
 .mission-p {
   padding-left: 15px;
-  font-size: 17px;
+  font-size: 19px;
 
 }
 
 #mission{
-  padding-top: 10px;
+  padding-bottom: 5px;
   text-align: center;
   font-size: 30px;
 }
 
 .classic_food_container{
   display: flex;
-  border: solid red;
-  justify-content: flex-start;
-  height: 500px;
-  width: 600px;
+  height: 550px;
+  width: 100%;
+  justify-content: space-between;
 
 }
 
 
-.pizza_pics_container{
+.pizza p{
+  line-height: 1.2em;
+  overflow: scroll;
+
+}
+
+
+.hotdogs p{
+  line-height: 1.4em;
+  font-size: 10px;
+}
+
+
+ .pizza_pictures > img{
+
+
+  height: 550px;
+  width: 790px;
+
+
+}
+ .pizza{
+   border: solid black;
+   width: 610px;
+   padding: 15px;
+   background-color: #5995DA;
+ }
+
+ .pizza > p{
+   padding-top: 15px;
+   font-size: 20px;
+ }
+
+ .pizza > h3{
+   padding-top: 15px;
+ }
+
+.hotdog_container{
   display: flex;
-  border: solid blue;
-  height: 500px;
-  width: 600px;
+  background: #5995DA;
 
+}
+.hotdogs{
+  flex: 2;
+  padding: 10px;
+}
+
+.hotdogs > p{
+  font-size: 19px;
+  padding-top: 15px;
+}
+
+.hotdog_picture > img{
+  width: 550px;
+}
+
+.hotdogs > h3{
+  font-size: 22px;
+}
+
+
+.attractions_container{
+  display: flex;
 
 }
 
-.pizza_pics_container > img{
-  height: 500px;
-  width: 500px;
+.attractions{
+  flex: 1;
+  justify-content: center;
+
 }
+
+.attractions  {
+  text-align: center;
+}
+
+.iframe >iframe{
+  width: 100%;
+}
+
+
+.attractions_table > table, .cost{
+  text-align: center;
+}
+
+.attractions_table > table{
+  height: 350px;
+
+}
+
+tr:nth-child(even) {  /* W3schools */
+    background-color: #dddddd;
+}
+
+
+.form_container{
+  display: flex;
+}
+
+.form{
+
+}
+
+
+
 
 
 body{
@@ -96,7 +188,7 @@ body{
 }
 
 a:visited{
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -107,4 +199,5 @@ a:link{
 
 a:hover{
   text-decoration: underline;
+  color: #ba1499;
 }
