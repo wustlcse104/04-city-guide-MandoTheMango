@@ -16,9 +16,14 @@
   justify-content: space-around;
   align-items: center;
   font-size: 25px;
+  text-decoration: underline;
 
 }
 
+ #Chicago_hotdogs{
+   font-family: "Courier New";
+  font-size: 26px;
+ }
 
 
 .sky_line-container{
@@ -65,6 +70,7 @@ align-items: center;
   padding-bottom: 5px;
   text-align: center;
   font-size: 30px;
+  font-family: "Courier New"
 }
 
 .classic_food_container{
@@ -85,7 +91,7 @@ align-items: center;
 
 .hotdogs p{
   line-height: 1.4em;
-  font-size: 10px;
+
 }
 
 
@@ -111,6 +117,7 @@ align-items: center;
 
  .pizza > h3{
    padding-top: 15px;
+
  }
 
 .hotdog_container{
@@ -126,14 +133,16 @@ align-items: center;
 .hotdogs > p{
   font-size: 19px;
   padding-top: 15px;
+  text-align: left;
 }
 
 .hotdog_picture > img{
   width: 550px;
 }
 
-.hotdogs > h3{
-  font-size: 22px;
+ #chicago_Food{
+  font-size: 26px;
+  font-family: "Courier New"
 }
 
 
@@ -173,10 +182,21 @@ tr:nth-child(even) {  /* W3schools */
 
 .form_container{
   display: flex;
+
 }
 
-.form{
+.form_heading{
+  text-align: center;
+}
 
+.form_container{
+  border: solid red;
+  justify-content: center;
+
+}
+
+.form_inputs {
+  font-weight: bold;
 }
 
 
@@ -200,4 +220,10 @@ a:link{
 a:hover{
   text-decoration: underline;
   color: #ba1499;
+}
+
+input:focus {
+
+    background-color: gray;
+
 }

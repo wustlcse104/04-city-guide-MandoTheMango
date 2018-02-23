@@ -3,7 +3,7 @@
 
 <html>
  <link rel="stylesheet" type="text/css" href="style.css"/>
-
+ <meta name="City Guide" content=" Chicago City Guide, Classic Chicago Food">
 <head>
   <title> Chicago's City Guide </title>
 </head>
@@ -86,7 +86,7 @@
 
 <div class="hotdog_container">
 <div class="hotdogs">
-  <h3> Chicago-Style Hot Dogs: </h3>
+  <h3 id="Chicago_hotdogs"> Chicago-Style Hot Dogs: </h3>
 
   <p> Chicago-stye Hot Dogs are the real deal. An all-beef hot dog on a steamed bun, topped with your favorite toppings, and
     Protillo's is one of the best places to get fast, cheap, and good hot dogs in Chicago. On top of that, try Protillo's Chocolate Cake Milk Shake! </p>
@@ -203,16 +203,31 @@
 <div class="form_container">
 
   <div class="form">
-    <h2> Experience Survey </h2>
-      <form>
+    <h2 class="form_heading"> Experience Survey </h2>
+      <form class="form_inputs">
 
         <label> Enter your name </label>
         <input type="text" placeholder="First Name, Last Name" />
+        <br>
+        <label> Email Address </label>
+        <input type="text" placeholder="What's your email" />
+        <br>
 
-
-
-
-
+        <label> Was this city guide helpful? </label>
+          <br>
+        <input type="radio" name="rating" value="5"/> 5: Helpful
+        <br>
+        <input type="radio" name="rating" value="4"/> 4: Useful
+        <br>
+        <input type="radio" name="rating" value="3"/> 3: It was ok
+        <br>
+        <input type="radio" name="rating" value="2"/> 2: I glanced at it
+        <br>
+        <input type="radio" name="rating" value="1"/> 1: Not helpful
+        <br>
+        <textarea name="comments" rows="5" cols="30" placeholder="Any additional comments?"></textarea>
+        <br>
+        <input type="submit" value="Submit">
       </form>
 
 
