@@ -6,7 +6,7 @@
   justify-content: center;
   padding: 20px ;
   width: 100%;
-
+/* menu container */
 }
 .nav{
   border: 1px solid #fff;
@@ -23,6 +23,7 @@
  #Chicago_hotdogs{
    font-family: "Courier New";
   font-size: 26px;
+  /* changes font and size of heading  */
  }
 
 
@@ -71,6 +72,7 @@ align-items: center;
   text-align: center;
   font-size: 30px;
   font-family: "Courier New"
+  /* changes the font family, size, and alignment of Mission */
 }
 
 .classic_food_container{
@@ -205,21 +207,25 @@ tr:nth-child(even) {  /* W3schools */
 
 body{
   background-color: white;
+  /* makes the body white  */
 }
 
 a:visited{
   color: white;
   text-decoration: none;
+  /* makes links visited white */
 }
 
 a:link{
   text-decoration: none;
   color: black;
+  /* makes links black */
 }
 
 a:hover{
   text-decoration: underline;
   color: #ba1499;
+  /* when user hovers over links it underlines and changes the color */
 }
 
 input:focus {
