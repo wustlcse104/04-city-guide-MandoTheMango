@@ -4,19 +4,23 @@
   background-color: #5995DA;
   display: flex;
   justify-content: center;
-  padding: 20px ;
+  padding: 20px;
   width: 100%;
+  position:fixed;
+
 /* menu container */
 }
 .nav{
   border: 1px solid #fff;
+  background-color: #5995DA;
   width: 900px;
-  height: 100px;
+  height: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 25px;
   text-decoration: underline;
+
 
 }
 
@@ -30,7 +34,7 @@
 .sky_line-container{
   display: flex;
   justify-content: center;
-
+  padding-top: 95px;
 }
 
 
@@ -56,9 +60,10 @@
 
 .Mission-container{
 display: flex;
-height: 180px;
+height: 250px;
 background-color: #5995DA;
 align-items: center;
+
 }
 
 .mission-p {
@@ -80,15 +85,19 @@ align-items: center;
   height: 550px;
   width: 100%;
   justify-content: space-between;
+  margin-top: 150px;
+  border: solid #9A0808;
+  border-width: 7px;
+  font-size: 20px;
 
 }
 
-
-.pizza p{
-  line-height: 1.2em;
+.pizza{
   overflow: scroll;
-
 }
+
+
+
 
 
 .hotdogs p{
@@ -125,6 +134,9 @@ align-items: center;
 .hotdog_container{
   display: flex;
   background: #5995DA;
+  margin-top: 150px;
+  border: solid #9A0808;
+  border-width: 7px;
 
 }
 .hotdogs{
@@ -150,21 +162,35 @@ align-items: center;
 
 .attractions_container{
   display: flex;
+  margin-top: 150px;
+  box-shadow: 10px 10px 15px 10px red;
 
+}
+
+.list > li{ /* these are the 4 changes done to the list */
+    list-style-type: circle;
+    padding: 5px;
+    list-style-position: inside;
+    font-size: 1.25em;
 }
 
 .attractions{
   flex: 1;
   justify-content: center;
-
-}
-
-.attractions  {
   text-align: center;
+
 }
 
+.attractions_table{ /* these are the 4 changes to the table */
+  flex: 1;
+  width: 100%;
+  position: center;
+  /* 4th change is the one below it also has a comment */
+}
 .iframe >iframe{
   width: 100%;
+  margin-top: 150px;
+
 }
 
 
@@ -177,7 +203,7 @@ align-items: center;
 
 }
 
-tr:nth-child(even) {  /* W3schools */
+tr:nth-child(even) {  /* W3schools  it changes the table colors*/
     background-color: #dddddd;
 }
 
@@ -189,19 +215,28 @@ tr:nth-child(even) {  /* W3schools */
 
 .form_heading{
   text-align: center;
+
 }
 
 .form_container{
-  border: solid red;
+  border-radius: 1px;
+  border: solid #9A0808;
   justify-content: center;
-
+  border-width: 5px;
 }
 
-.form_inputs {
+.form_inputs > label{
   font-weight: bold;
 }
 
+.inputs{    /* changing inline inputs to block */
+    display: block;
+    margin-top: 12px;
+}
 
+
+
+/* the 4 changes for the form are centering the content, border with color, bolding words,graying the text boxes when focused, and adding padding to the margins */
 
 
 
